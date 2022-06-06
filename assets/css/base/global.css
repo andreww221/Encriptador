@@ -1,0 +1,48 @@
+
+
+
+:root{
+
+
+    --blanco:#ffffff;
+    --azulOscuro:#0A3871;
+    --azulClaro:#D8DFE8;
+    --azulClaroPlus:#E5E5E5;
+    --fuenteLetra:font-family: 'Inter', sans-serif;
+    --gris:#495057;
+
+
+}
+
+
+/* CONFIGURACIONES PARA : */
+
+/* PARA REM EQUIVALGA A 10PX  */
+/* PARA QUE EL ELEMENTO NO AUMENTE SU TAMAÑO  POR EL BORDER, PADDING O MARGIN*/
+
+html{
+    font-size:62.5% !important;
+    box-sizing: border-box !important;
+    font-family: 'Inter', sans-serif !important; 
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body{
+    font-size: 1.6rem;
+    font-family: var(--fuenteLetra);
+}
+  
+
+
+
+
+
+
+
+
+  
+

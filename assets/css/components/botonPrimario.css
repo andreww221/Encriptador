@@ -1,0 +1,18 @@
+
+
+@import  url(../base/global.css);
+
+
+.botonPrimario{
+  
+
+ background-color: var(--azulOscuro);
+ color:var(--blanco);
+ margin: none;
+ border: none;
+ border-radius: 20px;
+ padding: 20px;
+ width: 100%;
+ margin-top: 2rem;
+ cursor: pointer;
+}

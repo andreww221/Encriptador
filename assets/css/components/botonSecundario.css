@@ -1,0 +1,16 @@
+@import  url(../base/global.css);
+
+
+.botonSecundario{
+  
+
+ background-color: var(--azulClaroPlus);
+ color:var(--azulOscuro);
+ margin: none;
+ border: 2px solid var(--azulOscuro);
+ border-radius: 20px;
+ padding: 20px;
+ width: 100%;
+ margin-top: 2rem;
+ cursor: pointer;
+}
