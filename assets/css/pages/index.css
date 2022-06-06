@@ -42,3 +42,59 @@ header {
     display: flex;
     gap: 5px;
 }
+
+
+/*ESTILOS PARA EL FOOTER  */
+
+.footer__txtAreaInferior {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 3.2rem;
+    height: 30rem;
+    color: var(--gris);
+    resize: none;
+    display: none;
+    background-color: white;
+}
+
+
+
+.footer__info {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 20px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+
+
+}
+
+
+.footer__info h2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+
+
+
+.footer_botonCopiar {
+
+    background-color: var(--blanco);
+    color: var(--azulOscuro);
+    margin: none;
+    border: 2px solid var(--azulOscuro);
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    margin-top: 2rem;
+    display: none;
+    cursor: pointer;
+}
