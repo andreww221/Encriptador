@@ -1,0 +1,19 @@
+
+@media (min-width: 768px) {
+   
+    .contenedor{
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         min-height: 100vh;
+    }
+
+    .main__botones{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+
+
+}
