@@ -1,0 +1,25 @@
+
+
+/* UTILIDADES  */
+
+
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+
+/* ESTILOS GENERALES */
+
+
+body {
+    background-color: var(--azulClaroPlus);
+}
+
+
+/* ESTILO PARA EL HEADER  */
+
+header {
+    height: 5rem;
+    margin-bottom: 3rem;
