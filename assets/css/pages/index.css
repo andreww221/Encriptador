@@ -23,3 +23,22 @@ body {
 header {
     height: 5rem;
     margin-bottom: 3rem;
+
+}
+    
+/* ESTILOS PARA LA SECCION PRINCIPAL */
+
+
+.main__txtAreaSuperior {
+    width: 100%;
+    background-color: var(--azulClaroPlus);
+    border: none;
+    font-size: 3.2rem;
+    color: var(--azulOscuro);
+    height: 30rem;
+}
+
+.main__info {
+    display: flex;
+    gap: 5px;
+}
