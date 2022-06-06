@@ -1,0 +1,64 @@
+@media (min-width: 1024px) {
+
+
+
+    .contenedor {
+
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        justify-content: space-between;
+
+    }
+
+
+    main {
+        height: 85vh;
+    }
+
+
+    .main__txtAreaSuperior {
+        margin-top: 10rem;
+        margin-bottom: 4rem;
+        height: 60vh;
+    }
+
+
+    .footer__info {
+
+        margin-bottom: 0px;
+        height: 85vh;
+        background-color: var(--blanco);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .footer__info h2{
+
+   
+        margin-bottom: 3rem;
+
+    }
+
+  
+
+ 
+
+    .footer_imagen{
+        display: block;
+        width: 100%;
+      
+    }
+
+   
+
+
+
+
+
+
+
+
+}

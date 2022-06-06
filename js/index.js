@@ -18,11 +18,16 @@ const mensajeFooter1 = document.querySelector("[data-footerInfo1]");
 
 const mensajeFooter2 = document.querySelector("[data-footerInfo2]");
 
+const imagen = document.querySelector(".footer_imagen");
+
 
 
 botonEncriptar.addEventListener("click",()=>{
 
 const valorTxtArea = txtArea.value;
+
+
+
 
 var nuevaCadena = "";
 
@@ -54,6 +59,16 @@ mensajeFooter1.classList.add("eliminar");
 
 mensajeFooter2.classList.add("eliminar");
 
+
+
+
+   try{
+      campoResultado.removeChild(imagen);
+   }catch(Exception){
+      console.log(Exception);
+   }
+
+
 txtArea2.classList.add("agregar");
 
 
@@ -78,15 +93,20 @@ botonDesencriptar.addEventListener("click",()=>{
    const quintaCapa = cuartaCapa.replace(/ufat/g,"u");
 
 
-
    var nuevaCadena = quintaCapa;
    
-   
-   
+
 
    mensajeFooter1.classList.add("eliminar");
    
    mensajeFooter2.classList.add("eliminar");
+
+  
+   try{
+      campoResultado.removeChild(imagen);
+   }catch(Exception){
+     
+   }
    
    txtArea2.classList.add("agregar");
 

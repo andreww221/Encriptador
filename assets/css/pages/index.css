@@ -106,3 +106,7 @@ header {
     display: none;
     cursor: pointer;
 }
+
+.footer_imagen{
+    display: none;
+}
